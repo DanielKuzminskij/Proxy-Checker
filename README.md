@@ -21,8 +21,11 @@ pip install requests
 1. **Prepare a text file** with the list of proxies (one proxy per line). For example:
 
     ```
-    123.45.67.89:8080
-    98.76.54.32:3128
+    socks5://user1:password1@proxy1.example.com:1080
+    http://user2:password2@proxy2.example.com:8080
+    https://proxy3.example.com:443
+    user4:password4@proxy4.example.com:1080
+    proxy5.example.com:1080
     ```
 
 2. **Update the `file_path` variable** in the script with the path to your proxy list file. Example:
